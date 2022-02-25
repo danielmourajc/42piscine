@@ -1,7 +1,7 @@
 piscine42 dmoura-d
 LISTA DOS EXERCICIOS DA PISCINE
-C00
-Exercício 00: ft_putchar
+C00\n
+Exercício 00: ft_putchar\n
 Exercício 01: ft_print_alphabet
 Exercício 02: ft_print_reverse_alphabet
 Exercício 03: ft_print_numbers
