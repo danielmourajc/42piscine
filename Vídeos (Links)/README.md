@@ -47,10 +47,10 @@
 01 C - VII Ponteiros - 10 malloc<br>
 
 <a href="https://youtube.com/playlist?list=PLVQYiy6xNUxxMI_GiGGb2hxMcd3IwNYRy">VÍDEOS DO C08</a><br>
-01 C - IX Pré Processador - 1 Compilação<br><br>
-02 C - IX Pré Processador - 2 #include<br><br>
-03 C - IX Pré Processador - 3 #define<br><br>
-04 C - IX Pré Processador - 4 #define avec variables<br><br>
+01 C - IX Pré Processador - 1 Compilação<br>
+02 C - IX Pré Processador - 2 #include<br>
+03 C - IX Pré Processador - 3 #define<br>
+04 C - IX Pré Processador - 4 #define avec variables<br>
 05 C - IX Pré Processador - 5 #if, #else, #elif et #endif<br>
 06 C - IX Pré Processador - 6 #ifdef et #ifndef<br>
 07 C - X Estruturas de dados - 1 typedef<br>
