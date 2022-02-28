@@ -1,4 +1,4 @@
-PLAYLIST DOS VIDEOS DA 42 NO YOUTUBE
+42 YOUTUBE
 
 <a href="https://www.youtube.com/playlist?list=PLVQYiy6xNUxz5wbzZn4tfUhF4djgzscB-">VÍDEOS DO C00</a><br>
 01 C - I Hello World<br>
@@ -27,20 +27,48 @@ PLAYLIST DOS VIDEOS DA 42 NO YOUTUBE
 24 C - XI Outras palavras-chave - STATIC<br>
 25 C - XI Outras palavras-chave - CONST<br>
 
-C01: https://www.youtube.com/playlist?list=PLVQYiy6xNUxytsXWxZx6odBJMbRktIHTs
+<a href="https://www.youtube.com/playlist?list=PLVQYiy6xNUxytsXWxZx6odBJMbRktIHTs">VÍDEOS DO C01</a><br>
+01 C - VII Ponteiros - 1 Introdução<br>
+02 C - VII Ponteiros - 2 Invocação<br>
+03 C - VII Ponteiros - 3 Desreferenciamento<br>
+04 C - VII Ponteiros - 4 Aritmética dos Ponteiros<br>
+05 C - VII Ponteiros - 5 As Tabelas<br>
+06 C - VII Ponteiros - 6 Cadeias de caracteres<br>
+07 C - VII Ponteiros - 7 Uso geral<br>
+08 C - VII Ponteiros - 8 void<br>
 
-C05: https://www.youtube.com/playlist?list=PLVQYiy6xNUxxZbeH9b0VC-nC6QsJRw5Ah
+<a href="https://www.youtube.com/playlist?list=PLVQYiy6xNUxxZbeH9b0VC-nC6QsJRw5Ah">VÍDEOS DO C05</a><br>
+01 C - VI As Funções - 5 Recursividade<br>
 
-C06: https://www.youtube.com/playlist?list=PLVQYiy6xNUxxDlCkkCX262SI90TsllYUW
+<a href="https://www.youtube.com/playlist?list=PLVQYiy6xNUxxDlCkkCX262SI90TsllYUW">VÍDEOS DO C06</a><br>
+01 C - VIII Main - 01 Argumentos do main<br>
 
-C07: https://www.youtube.com/playlist?list=PLVQYiy6xNUxzNYF00nlmx624twFlamqLt
+<a href="https://www.youtube.com/playlist?list=PLVQYiy6xNUxzNYF00nlmx624twFlamqLt">VÍDEOS DO C07</a><br>
+01 C - VII Ponteiros - 10 malloc<br>
 
-C08: https://youtube.com/playlist?list=PLVQYiy6xNUxxMI_GiGGb2hxMcd3IwNYRy
+<a href="https://youtube.com/playlist?list=PLVQYiy6xNUxxMI_GiGGb2hxMcd3IwNYRy">VÍDEOS DO C08</a><br>
+01 C - IX Pré Processador - 1 Compilação<br><br>
+02 C - IX Pré Processador - 2 #include<br><br>
+03 C - IX Pré Processador - 3 #define<br><br>
+04 C - IX Pré Processador - 4 #define avec variables<br><br>
+05 C - IX Pré Processador - 5 #if, #else, #elif et #endif<br>
+06 C - IX Pré Processador - 6 #ifdef et #ifndef<br>
+07 C - X Estruturas de dados - 1 typedef<br>
+08 C - X Estruturas de dados - 2 struct<br>
+09 C - X Estruturas de dados - 3 enum<br>
+10 C - X Estruturas de dados - 4 union<br>
 
-C09: https://youtube.com/playlist?list=PLVQYiy6xNUxw6n6q_i8wek6U7t7CeAXhU
+<a href="https://youtube.com/playlist?list=PLVQYiy6xNUxw6n6q_i8wek6U7t7CeAXhU">VÍDEOS DO C09</a><br>
+01 Shell - II Makefile - 1 As Bases<br>
+02 Shell - II Makefile - 2 Conceitos avançados<br>
+03 C - XIV Bibliotecas<br>
 
-C11: https://youtube.com/playlist?list=PLVQYiy6xNUxx8sKygTdqtOPytqN7sb0Vz
+<a href="https://youtube.com/playlist?list=PLVQYiy6xNUxx8sKygTdqtOPytqN7sb0Vz">VÍDEOS DO C11</a><br>
+01 C - VII Ponteiros - 9 Ponteiros para Função<br>
 
-C12: https://youtube.com/playlist?list=PLVQYiy6xNUxwmUOmyYSaI6gD1UyfF9MSj
+<a href="https://youtube.com/playlist?list=PLVQYiy6xNUxwmUOmyYSaI6gD1UyfF9MSj">VÍDEOS DO C12</a><br>
+01 C - XII Listas encadeadas - 1 Em teoria<br>
+02 C - XII Listas encadeadas - 2 Na prática<br>
 
-C13: https://youtube.com/playlist?list=PLVQYiy6xNUxzusAgMiybYwkLvuMFbVat9
+<a href="https://youtube.com/playlist?list=PLVQYiy6xNUxzusAgMiybYwkLvuMFbVat9">VÍDEOS DO C13</a><br>
+01 C - XIII Árvores<br>
