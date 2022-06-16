@@ -1,9 +1,9 @@
 EXAMES RESOLVIDOS PISCINE 42
 
 ======================================0-0-aff_a=========================================
-Nome da atribuição: aff_a
-Arquivos esperados: aff_a.c
-Funções permitidas: write
+Nome da atribuição   : aff_a
+Arquivos esperados   : aff_a.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Escreva um programa que receba uma string e exiba o primeiro caractere 'a' encontrado nele, seguido por uma nova linha. Se não houver caracteres 'a' na string, o programa apenas escreve uma nova linha. Se o número de parâmetros não for 1, o programa exibe 'a' seguido por uma nova linha.
@@ -18,9 +18,7 @@ $> ./aff_a "zz sent le poney" | cat -e
 $
 $> ./aff_a | cat -e
 a$
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 int	main(int argc, char **argv)
@@ -45,10 +43,10 @@ int	main(int argc, char **argv)
 }
 
 ======================================0-0-ft_countdown=========================================
-Nome da atribuição: ft_countdown
-Arquivos esperados: ft_countdown.c
-Funções permitidas: write
------------------------------------------------------------------------------------------------
+Nome da atribuição   : ft_countdown
+Arquivos esperados   : ft_countdown.c
+Funções permitidas   : write
+----------------------------------------------------------------------------------------
 
 Escreva um programa que exiba todos os dígitos em ordem decrescente, seguidos por um nova linha.
 
@@ -56,9 +54,7 @@ EXEMPLOS:
 $> ./ft_countdown | cat -e
 9876543210$
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 int	main(void)
@@ -78,10 +74,10 @@ int	main(void)
 
 
 ======================================0-0-ft_print_numbers=========================================
-Nome da atribuição: ft_print_numbers
-Arquivos esperados: ft_print_numbers.c
-Funções permitidas: write
----------------------------------------------------------------------------------------------------
+Nome da atribuição   : ft_print_numbers
+Arquivos esperados   : ft_print_numbers.c
+Funções permitidas   : write
+----------------------------------------------------------------------------------------
 
 Escreva uma função que exiba todos os dígitos em ordem crescente.
 
@@ -89,9 +85,7 @@ Sua função deve ser declarada da seguinte forma:
 
 void	ft_print_numbers(void);
 
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 void	ft_print_numbers(void)
@@ -110,9 +104,9 @@ void	ft_print_numbers(void)
 
 
 ======================================0-0-hello=========================================
-Nome da atribuição: hello
-Arquivos esperados: hello.c
-Funções permitidas: write
+Nome da atribuição   : hello
+Arquivos esperados   : hello.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Escreva um programa que exiba "Hello World!" seguido por um \n.
@@ -124,9 +118,7 @@ Hello World!
 $>./hello | cat -e
 Hello World!$
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 int	main(void)
@@ -138,9 +130,9 @@ int	main(void)
 
 
 ======================================0-0-maff_alpha=========================================
-Nome da atribuição: maff_alpha
-Arquivos esperados: maff_alpha.c
-Funções permitidas: write
+Nome da atribuição   : maff_alpha
+Arquivos esperados   : maff_alpha.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Escreva um programa que exiba o alfabeto, com letras pares em maiúsculas, e letras ímpares em minúsculas, seguidas por uma nova linha.
@@ -149,9 +141,7 @@ EXEMPLOS:
 
 $> ./maff_alpha | cat -e
 aBcDeFgHiJkLmNoPqRsTuVwXyZ$
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 void	ft_putchar(char c)
@@ -178,9 +168,9 @@ int	main(void)
 
 
 ======================================0-1-aff_first_param=========================================
-Nome da atribuição: aff_first_param
-Arquivos esperados: aff_first_param.c
-Funções permitidas: write
+Nome da atribuição   : aff_first_param
+Arquivos esperados   : aff_first_param.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Escreva um programa que receba strings como argumentos e exiba seu primeiro argumento seguido por um \n.
@@ -195,9 +185,7 @@ $> ./aff_first_param "j'aime le fromage de chevre" | cat -e
 j'aime le fromage de chevre$
 $> ./aff_first_param
 $
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 int	main(int argc, char **argv)
@@ -212,9 +200,9 @@ int	main(int argc, char **argv)
 
 
 ======================================0-1-aff_last_param=========================================
-Nome da atribuição: aff_last_param
-Arquivos esperados: aff_last_param.c
-Funções permitidas: write
+Nome da atribuição   : aff_last_param
+Arquivos esperados   : aff_last_param.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Escreva um programa que receba strings como argumentos e exiba seu último argumento seguido por uma nova linha.
@@ -229,9 +217,7 @@ $> ./aff_last_param "j'aime le savon" | cat -e
 j'aime le savon$
 $> ./aff_last_param
 $
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 int	main(int argc, char **argv)
@@ -246,9 +232,9 @@ int	main(int argc, char **argv)
 
 
 ======================================0-1-maff_revalpha=========================================
-Nome da atribuição: maff_revalpha
-Arquivos esperados: maff_revalpha.c
-Funções permitidas: write
+Nome da atribuição   : maff_revalpha
+Arquivos esperados   : maff_revalpha.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Escreva um programa que mostre o alfabeto ao contrário, com letras pares em maiúsculas e letras ímpares em minúsculas, seguidas de uma nova linha.
@@ -257,9 +243,7 @@ EXEMPLOS:
 
 $> ./maff_revalpha | cat -e
 zYxWvUtSrQpOnMlKjIhGfEdCbA$
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 void	ft_putchar(char c)
@@ -287,15 +271,13 @@ int	main(void)
 
 
 ======================================0-1-only_a=========================================
-Nome da atribuição: only_a
-Arquivos esperados: only_a.c
-Funções permitidas: write
+Nome da atribuição   : only_a
+Arquivos esperados   : only_a.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Escreva um programa que exiba um caractere 'a' na saída padrão.
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 int	main(void)
@@ -305,15 +287,13 @@ int	main(void)
 }
 
 ======================================0-1-only_z=========================================
-Nome da atribuição: only_z
-Arquivos esperados: only_z.c
-Funções permitidas: write
+Nome da atribuição   : only_z
+Arquivos esperados   : only_z.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Escreva um programa que exiba um caractere 'z' na saída padrão.
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 int	main(void)
@@ -324,9 +304,9 @@ int	main(void)
 
 
 ======================================0-2-aff_z=========================================
-Nome da atribuição: aff_z
-Arquivos esperados: aff_z.c
-Funções permitidas: write
+Nome da atribuição   : aff_z
+Arquivos esperados   : aff_z.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Escreva um programa que receba uma string e exiba o primeiro 'z' caractere que encontra nele, seguido por uma nova linha. Se não houver caracteres 'z' na string, o programa escreve 'z' seguido por uma nova linha. Se o número de parâmetros não for 1, o programa exibe 'z' seguido por uma nova linha.
@@ -341,9 +321,7 @@ $> ./aff_z "zaz sent le poney" | cat -e
 z$
 $> ./aff_z | cat -e
 z$
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 int	main(int ac, char **av)
@@ -368,9 +346,9 @@ int	main(int ac, char **av)
 }
 
 ======================================1-0-ft_strcpy=========================================
-Nome da atribuição: ft_strcpy
-Arquivos esperados: ft_strcpy.c
-Funções permitidas: 
+Nome da atribuição   : ft_strcpy
+Arquivos esperados   : ft_strcpy.c
+Funções permitidas   : 
 ----------------------------------------------------------------------------------------
 
 Reproduza o comportamento da função strcpy (man strcpy).
@@ -378,9 +356,7 @@ Reproduza o comportamento da função strcpy (man strcpy).
 Sua função deve ser declarada da seguinte forma:
 
 char    *ft_strcpy(char *dest, char *src);
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 char	*ft_strcpy(char *dest, char *src)
 {
 	int	i;
@@ -396,9 +372,9 @@ char	*ft_strcpy(char *dest, char *src)
 }
 
 ======================================1-0-ft_strlen=========================================
-Nome da atribuição: ft_strlen
-Arquivos esperados: ft_strlen.c
-Funções permitidas: 
+Nome da atribuição   : ft_strlen
+Arquivos esperados   : ft_strlen.c
+Funções permitidas   : 
 ----------------------------------------------------------------------------------------
 
 Escreva uma função que retorne o comprimento de uma string.
@@ -406,9 +382,7 @@ Escreva uma função que retorne o comprimento de uma string.
 Sua função deve ser declarada da seguinte forma:
 
 int	ft_strlen(char *str);
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 int	ft_strlen(char *str)
 {
 	int	i;
@@ -422,9 +396,9 @@ int	ft_strlen(char *str)
 
 
 ======================================1-0-repeat_alpha=========================================
-Nome da atribuição: repeat_alpha
-Arquivos esperados: repeat_alpha.c
-Funções permitidas: write
+Nome da atribuição   : repeat_alpha
+Arquivos esperados   : repeat_alpha.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Escreva um programa chamado repeat_alpha que receba uma string e a exiba repetindo cada caractere alfabético tantas vezes quanto seu índice alfabético, seguido por uma nova linha.
@@ -449,9 +423,7 @@ $>
 $>./repeat_alpha "" | cat -e
 $
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 int	main(int ac, char **av)
@@ -480,9 +452,9 @@ int	main(int ac, char **av)
 }
 
 ======================================1-0-search_and_replace=========================================
-Nome da atribuição: search_and_replace
-Arquivos esperados: search_and_replace.c
-Funções permitidas: write, exit
+Nome da atribuição   : search_and_replace
+Arquivos esperados   : search_and_replace.c
+Funções permitidas   : write, exit
 ----------------------------------------------------------------------------------------
 
 Escreva um programa chamado search_and_replace que receba 3 argumentos, o primeiro argumentos é uma string na qual substituir uma letra (2º argumento) por outro (3º argumento).
@@ -504,9 +476,7 @@ $>./search_and_replace "ZoZ eT Dovid oiME le METol." "o" "a" | cat -e
 ZaZ eT David aiME le METal.$
 $>./search_and_replace "wNcOre Un ExEmPle Pas Facilw a Ecrirw " "w" "e" | cat -e
 eNcOre Un ExEmPle Pas Facile a Ecrire $
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 int main(int ac, char **av)
@@ -534,9 +504,9 @@ int main(int ac, char **av)
 
 
 ======================================1-0-ulstr=========================================
-Nome da atribuição: ulstr
-Arquivos esperados: ulstr.c
-Funções permitidas: write
+Nome da atribuição   : ulstr
+Arquivos esperados   : ulstr.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Escreva um programa que receba uma string e inverta as maiúsculas e minúsculas de todas as suas letras.
@@ -556,9 +526,7 @@ $>./ulstr "3:21 Ba  tOut  moUn ki Ka di KE m'en Ka fe fot" | cat -e
 3:21 bA  ToUT  MOuN KI kA DI ke M'EN kA FE FOT$
 $>./ulstr | cat -e
 $
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 int	main(int argc, char *argv[])
@@ -585,9 +553,9 @@ int	main(int argc, char *argv[])
 }
 
 ======================================1-1-rot_13=========================================
-Nome da atribuição: rot_13
-Arquivos esperados: rot_13.c
-Funções permitidas: write
+Nome da atribuição   : rot_13
+Arquivos esperados   : rot_13.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Escreva um programa que pegue uma string e a exiba, substituindo cada uma de suas letras pela letra 13 espaços à frente em ordem alfabética.
@@ -612,9 +580,7 @@ $>
 $>./rot_13 "" | cat -e
 $
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 int main(int argc, char **argv)
@@ -638,15 +604,13 @@ int main(int argc, char **argv)
     return (0);
 }
 
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 ======================================1-2-first_word=========================================
-Nome da atribuição: first_word
-Arquivos esperados: first_word.c
-Funções permitidas: write
+Nome da atribuição   : first_word
+Arquivos esperados   : first_word.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Escreva um programa que receba uma string e exiba sua primeira palavra, seguida por um nova linha.
@@ -668,9 +632,7 @@ $
 $> ./first_word "  lorem,ipsum  " | cat -e
 lorem,ipsum$
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 int	main(int ac, char **av)
@@ -689,9 +651,9 @@ int	main(int ac, char **av)
 
 
 ======================================1-2-ft_putstr=========================================
-Nome da atribuição: ft_putstr
-Arquivos esperados: ft_putstr.c
-Funções permitidas: write
+Nome da atribuição   : ft_putstr
+Arquivos esperados   : ft_putstr.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 Escreva uma função que exiba uma string na saída padrão.
 
@@ -701,9 +663,7 @@ personagem.
 Sua função deve ser declarada da seguinte forma:
 
 void	ft_putstr(char *str);
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 void	ft_putstr(char *str)
@@ -714,9 +674,9 @@ void	ft_putstr(char *str)
 
 
 ======================================1-2-ft_swap=========================================
-Nome da atribuição: ft_swap
-Arquivos esperados: ft_swap.c
-Funções permitidas: 
+Nome da atribuição   : ft_swap
+Arquivos esperados   : ft_swap.c
+Funções permitidas   : 
 ----------------------------------------------------------------------------------------
 
 Escreva uma função que troque o conteúdo de dois inteiros cujos endereços
@@ -725,9 +685,7 @@ são passados como parâmetros.
 Sua função deve ser declarada da seguinte forma:
 
 void	ft_swap(int *a, int *b);
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 void	ft_swap(int *a, int *b)
 {
 	int	tmp;
@@ -738,9 +696,9 @@ void	ft_swap(int *a, int *b)
 }
 
 ======================================1-3-rev_print=========================================
-Nome da atribuição: rev_print
-Arquivos esperados: rev_print.c
-Funções permitidas: write
+Nome da atribuição   : rev_print
+Arquivos esperados   : rev_print.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Escreva um programa que receba uma string e exiba a string ao contrário seguido por uma nova linha.
@@ -755,9 +713,7 @@ $> ./rev_print "dub0 a POIL" | cat -e
 LIOP a 0bud$
 $> ./rev_print | cat -e
 $
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 int	main(int ac, char *av[])
@@ -778,9 +734,9 @@ int	main(int ac, char *av[])
 
 
 ======================================1-4-rotone=========================================
-Nome da atribuição: rotone
-Arquivos esperados: rotone.c
-Funções permitidas: write
+Nome da atribuição   : rotone
+Arquivos esperados   : rotone.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Escreva um programa que pegue uma string e a exiba, substituindo cada uma de suas letras pela próxima em ordem alfabética.
@@ -805,9 +761,7 @@ $>
 $>./rotone "" | cat -e
 $
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 int    main(int argc, char *argv[])
 {
 	int	i;
@@ -835,12 +789,10 @@ int    main(int argc, char *argv[])
 
 ======================================2-0-fizzbuzz=========================================
    
-Nome da atribuição: fizzbuzz
-Arquivos esperados: fizzbuzz.c
-Funções permitidas: write
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+Nome da atribuição   : fizzbuzz
+Arquivos esperados   : fizzbuzz.c
+Funções permitidas   : write
+==========================================================================================
 
 Escreva um programa que imprima os números de 1 a 100, cada um separado por uma nova linha.
 
@@ -874,9 +826,7 @@ fizzbuzz
 fizz
 buzz
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 #include <unistd.h>
 
 void print(int nbr)
@@ -910,9 +860,9 @@ int main()
 }
 
 ======================================2-0-ft_atoi=========================================
-Nome da atribuição: ft_atoi
-Arquivos esperados: ft_atoi.c
-Funções permitidas: None
+Nome da atribuição   : ft_atoi
+Arquivos esperados   : ft_atoi.c
+Funções permitidas   : None
 ----------------------------------------------------------------------------------------
 
 Escreva uma função que converta o argumento string str em um inteiro (tipo int) e retorne ele.
@@ -922,9 +872,7 @@ Funciona muito parecido com a função padrão atoi(const char *str), veja o man
 Sua função deve ser declarada da seguinte forma:
 
 int	ft_atoi(const char *str);
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 int	ft_atoi(char *str)
 {
 	int result;
@@ -949,9 +897,9 @@ int	ft_atoi(char *str)
 
 
 ======================================2-0-ft_strdup=========================================
-Nome da atribuição: ft_strdup
-Arquivos esperados: ft_strdup.c
-Funções permitidas: malloc
+Nome da atribuição   : ft_strdup
+Arquivos esperados   : ft_strdup.c
+Funções permitidas   : malloc
 ----------------------------------------------------------------------------------------
 
 Reproduce the behavior of the function strdup (man strdup).
@@ -959,17 +907,15 @@ Reproduce the behavior of the function strdup (man strdup).
 Your function must be declared as follows:
 
 char    *ft_strdup(char *src);
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================2-0-inter=========================================
-Nome da atribuição: inter
-Arquivos esperados: inter.c
-Funções permitidas: write
+Nome da atribuição   : inter
+Arquivos esperados   : inter.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Escreva um programa que receba duas strings e exiba, sem doubles, os caracteres que aparecem em ambas as strings, na ordem em que aparecem na primeira.
@@ -988,17 +934,15 @@ $>./inter "rien" "cette phrase ne cache rien" | cat -e
 rien$
 $>./inter | cat -e
 $
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================2-0-last_word=========================================
-Nome da atribuição: last_word
-Arquivos esperados: last_word.c
-Funções permitidas: write
+Nome da atribuição   : last_word
+Arquivos esperados   : last_word.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Write a program that takes a string and displays its last word followed by a \n.
@@ -1021,16 +965,14 @@ $
 $> ./last_word "  lorem,ipsum  " | cat -e
 lorem,ipsum$
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================2-0-reverse_bits=========================================
-Nome da atribuição: reverse_bits
-Arquivos esperados: reverse_bits.c
+Nome da atribuição   : reverse_bits
+Arquivos esperados   : reverse_bits.c
 Funções permitidas:
 ----------------------------------------------------------------------------------------
 
@@ -1049,16 +991,14 @@ _____________
 	 ||
 	 \/
  0110  0100
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================2-0-swap_bits=========================================
-Nome da atribuição: swap_bits
-Arquivos esperados: swap_bits.c
+Nome da atribuição   : swap_bits
+Arquivos esperados   : swap_bits.c
 Funções permitidas:
 ----------------------------------------------------------------------------------------
 
@@ -1077,17 +1017,15 @@ _____________
      \ /
      / \
  0001 | 0100
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================2-0-union=========================================
-Nome da atribuição: union
-Arquivos esperados: union.c
-Funções permitidas: write
+Nome da atribuição   : union
+Arquivos esperados   : union.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Write a program that takes two strings and displays, without doubles, the
@@ -1112,17 +1050,15 @@ $>
 $>./union "rien" | cat -e
 $
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================2-1-alpha_mirror=========================================
-Nome da atribuição: alpha_mirror
-Arquivos esperados: alpha_mirror.c
-Funções permitidas: write
+Nome da atribuição   : alpha_mirror
+Arquivos esperados   : alpha_mirror.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Write a program called alpha_mirror that takes a string and displays this string
@@ -1147,17 +1083,15 @@ Nb slihv rh Znzarmt.$
 $>./alpha_mirror | cat -e
 $
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================2-1-max=========================================
-Nome da atribuição: max
-Arquivos esperados: max.c
-Funções permitidas: 
+Nome da atribuição   : max
+Arquivos esperados   : max.c
+Funções permitidas   : 
 ----------------------------------------------------------------------------------------
 
 Write the following function:
@@ -1170,17 +1104,15 @@ the array.
 The function returns the largest number found in the array.
 
 If the array is empty, the function returns 0.
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================2-3-wdmatch=========================================
-Nome da atribuição: wdmatch
-Arquivos esperados: wdmatch.c
-Funções permitidas: write
+Nome da atribuição   : wdmatch
+Arquivos esperados   : wdmatch.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Write a program that takes two strings and checks whether it's possible to
@@ -1204,17 +1136,15 @@ $>./wdmatch "error" rrerrrfiiljdfxjyuifrrvcoojh | cat -e
 $
 $>./wdmatch | cat -e
 $
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================2-4-do_op=========================================
-Nome da atribuição: do_op
-Arquivos esperados: *.c, *.h
-Funções permitidas: atoi, printf, write
+Nome da atribuição   : do_op
+Arquivos esperados   : *.c, *.h
+Funções permitidas   : atoi, printf, write
 ----------------------------------------------------------------------------------------
 
 Write a program that takes three strings:
@@ -1240,17 +1170,15 @@ $> ./do_op "1" "+" "-43" | cat -e
 -42$
 $> ./do_op | cat -e
 $
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================2-4-print_bits=========================================
-Nome da atribuição: print_bits
-Arquivos esperados: print_bits.c
-Funções permitidas: write
+Nome da atribuição   : print_bits
+Arquivos esperados   : print_bits.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Write a function that takes a byte, and prints it in binary WITHOUT A NEWLINE
@@ -1261,17 +1189,15 @@ Your function must be declared as follows:
 void	print_bits(unsigned char octet);
 
 EXEMPLOS, if you pass 2 to print_bits, it will print "00000010"
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================2-5-ft_strcmp=========================================
-Nome da atribuição: ft_strcmp
-Arquivos esperados: ft_strcmp.c
-Funções permitidas: 
+Nome da atribuição   : ft_strcmp
+Arquivos esperados   : ft_strcmp.c
+Funções permitidas   : 
 ----------------------------------------------------------------------------------------
 
 Reproduce the behavior of the function strcmp (man strcmp).
@@ -1279,17 +1205,15 @@ Reproduce the behavior of the function strcmp (man strcmp).
 Your function must be declared as follows:
 
 int    ft_strcmp(char *s1, char *s2);
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================2-5-ft_strrev=========================================
-Nome da atribuição: ft_strrev
-Arquivos esperados: ft_strrev.c
-Funções permitidas: 
+Nome da atribuição   : ft_strrev
+Arquivos esperados   : ft_strrev.c
+Funções permitidas   : 
 ----------------------------------------------------------------------------------------
 
 Write a function that reverses (in-place) a string.
@@ -1299,17 +1223,15 @@ It must return its parameter.
 Your function must be declared as follows:
 
 char    *ft_strrev(char *str);
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================2-6-is_power_of_2=========================================
-Nome da atribuição: is_power_of_2
-Arquivos esperados: is_power_of_2.c
-Funções permitidas: None
+Nome da atribuição   : is_power_of_2
+Arquivos esperados   : is_power_of_2.c
+Funções permitidas   : None
 ----------------------------------------------------------------------------------------
 
 Write a function that determines if a given number is a power of 2.
@@ -1319,17 +1241,15 @@ This function returns 1 if the given number is a power of 2, otherwise it return
 Your function must be declared as follows:
 
 int	    is_power_of_2(unsigned int n);
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================3-0-add_prime_sum=========================================
-Nome da atribuição: add_prime_sum
-Arquivos esperados: add_prime_sum.c
-Funções permitidas: write, exit
+Nome da atribuição   : add_prime_sum
+Arquivos esperados   : add_prime_sum.c
+Funções permitidas   : write, exit
 ----------------------------------------------------------------------------------------
 
 Write a program that takes a positive integer as argument and displays the sum
@@ -1349,17 +1269,15 @@ $>./add_prime_sum 7 | cat -e
 $>./add_prime_sum | cat -e
 0$
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================3-0-epur_str=========================================
-Nome da atribuição: epur_str
-Arquivos esperados: epur_str.c
-Funções permitidas: write
+Nome da atribuição   : epur_str
+Arquivos esperados   : epur_str.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Write a program that takes a string, and displays this string with exactly one
@@ -1383,17 +1301,15 @@ $
 $> ./epur_str "" | cat -e
 $
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================3-0-ft_list_size=========================================
-Nome da atribuição: ft_list_size
-Arquivos esperados: ft_list_size.c, ft_list.h
-Funções permitidas: 
+Nome da atribuição   : ft_list_size
+Arquivos esperados   : ft_list_size.c, ft_list.h
+Funções permitidas   : 
 ----------------------------------------------------------------------------------------
 
 Write a function that returns the number of elements in the linked list that's
@@ -1411,17 +1327,15 @@ typedef struct    s_list
     struct s_list *next;
     void          *data;
 }                 t_list;
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================3-0-ft_rrange=========================================
-Nome da atribuição: ft_rrange
-Arquivos esperados: ft_rrange.c
-Funções permitidas: malloc
+Nome da atribuição   : ft_rrange
+Arquivos esperados   : ft_rrange.c
+Funções permitidas   : malloc
 ----------------------------------------------------------------------------------------
 
 Write the following function:
@@ -1438,17 +1352,15 @@ EXEMPLOS:
 - With (-1, 2) you will return an array containing 2, 1, 0 and -1.
 - With (0, 0) you will return an array containing 0.
 - With (0, -3) you will return an array containing -3, -2, -1 and 0.
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================3-0-hidenp=========================================
-Nome da atribuição: hidenp
-Arquivos esperados: hidenp.c
-Funções permitidas: write
+Nome da atribuição   : hidenp
+Arquivos esperados   : hidenp.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Write a program named hidenp that takes two strings and displays 1
@@ -1472,17 +1384,15 @@ $>./hidenp "abc" "btarc" | cat -e
 $>./hidenp | cat -e
 $
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================3-0-pgcd=========================================
-Nome da atribuição: pgcd
-Arquivos esperados: pgcd.c
-Funções permitidas: printf, atoi, malloc, free
+Nome da atribuição   : pgcd
+Arquivos esperados   : pgcd.c
+Funções permitidas   : printf, atoi, malloc, free
 ----------------------------------------------------------------------------------------
 
 Write a program that takes two strings representing two strictly positive
@@ -1505,17 +1415,15 @@ $> ./pgcd 17 3 | cat -e
 1$
 $> ./pgcd | cat -e
 $
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================3-0-print_hex=========================================
-Nome da atribuição: print_hex
-Arquivos esperados: print_hex.c
-Funções permitidas: write
+Nome da atribuição   : print_hex
+Arquivos esperados   : print_hex.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Write a program that takes a positive (or zero) number expressed in base 10,
@@ -1533,17 +1441,15 @@ $> ./print_hex "5156454" | cat -e
 4eae66$
 $> ./print_hex | cat -e
 $
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================3-0-rstr_capitalizer=========================================
-Nome da atribuição: rstr_capitalizer
-Arquivos esperados: rstr_capitalizer.c
-Funções permitidas: write
+Nome da atribuição   : rstr_capitalizer
+Arquivos esperados   : rstr_capitalizer.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Write a program that takes one or more strings and, for each argument, puts 
@@ -1566,17 +1472,15 @@ deuxiemE tesT uN peU moinS  facilE$
    attentioN c'esT paS duR quanD memE$
 alleR uN dernieR 0123456789pouR lA routE    E $
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================3-1-expand_str=========================================
-Nome da atribuição: expand_str
-Arquivos esperados: expand_str.c
-Funções permitidas: write
+Nome da atribuição   : expand_str
+Arquivos esperados   : expand_str.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Write a program that takes a string and displays it with exactly three spaces
@@ -1600,17 +1504,15 @@ $
 $> ./expand_str "" | cat -e
 $
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================3-1-tab_mult=========================================
-Nome da atribuição: tab_mult
-Arquivos esperados: tab_mult.c
-Funções permitidas: write
+Nome da atribuição   : tab_mult
+Arquivos esperados   : tab_mult.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Write a program that displays a number's multiplication table.
@@ -1646,17 +1548,15 @@ $>
 $>./tab_mult | cat -e
 $
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================3-2-ft_atoi_base=========================================
-Nome da atribuição: ft_atoi_base
-Arquivos esperados: ft_atoi_base.c
-Funções permitidas: None
+Nome da atribuição   : ft_atoi_base
+Arquivos esperados   : ft_atoi_base.c
+Funções permitidas   : None
 ----------------------------------------------------------------------------------------
 
 Write a function that converts the string argument str (base N <= 16)
@@ -1674,17 +1574,15 @@ string.
 Your function must be declared as follows:
 
 int	ft_atoi_base(const char *str, int str_base);
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================3-3-ft_range=========================================
-Nome da atribuição: ft_range
-Arquivos esperados: ft_range.c
-Funções permitidas: malloc
+Nome da atribuição   : ft_range
+Arquivos esperados   : ft_range.c
+Funções permitidas   : malloc
 ----------------------------------------------------------------------------------------
 
 Write the following function:
@@ -1701,17 +1599,15 @@ EXEMPLOS:
 - With (-1, 2) you will return an array containing -1, 0, 1 and 2.
 - With (0, 0) you will return an array containing 0.
 - With (0, -3) you will return an array containing 0, -1, -2 and -3.
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================3-4-paramsum=========================================
-Nome da atribuição: paramsum
-Arquivos esperados: paramsum.c
-Funções permitidas: write
+Nome da atribuição   : paramsum
+Arquivos esperados   : paramsum.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Write a program that displays the number of arguments passed to it, followed by
@@ -1728,17 +1624,15 @@ $>./paramsum 6 12 24 | cat -e
 $>./paramsum | cat -e
 0$
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================3-4-str_capitalizer=========================================
-Nome da atribuição: str_capitalizer
-Arquivos esperados: str_capitalizer.c
-Funções permitidas: write
+Nome da atribuição   : str_capitalizer
+Arquivos esperados   : str_capitalizer.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Write a program that takes one or several strings and, for each argument,
@@ -1763,16 +1657,14 @@ Deuxieme Test Un Peu Moins  Facile$
    Attention C'est Pas Dur Quand Meme$
 Aller Un Dernier 0123456789pour La Route    E $
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================3-4-lcm=========================================
-Nome da atribuição: lcm
-Arquivos esperados: lcm.c
+Nome da atribuição   : lcm
+Arquivos esperados   : lcm.c
 Funções permitidas:
 ----------------------------------------------------------------------------------------
 
@@ -1799,17 +1691,15 @@ If at least one integer is null, LCM is equal to 0.
 Your function must be prototyped as follows:
 
   unsigned int    lcm(unsigned int a, unsigned int b);
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================4-0-fprime=========================================
-Nome da atribuição: fprime
-Arquivos esperados: fprime.c
-Funções permitidas: printf, atoi
+Nome da atribuição   : fprime
+Arquivos esperados   : fprime.c
+Funções permitidas   : printf, atoi
 ----------------------------------------------------------------------------------------
 
 Write a program that takes a positive int and displays its prime factors on the
@@ -1840,17 +1730,15 @@ $> ./fprime | cat -e
 $
 $> ./fprime 42 21 | cat -e
 $
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================4-0-ft_list_foreach=========================================
-Nome da atribuição: ft_list_foreach
-Arquivos esperados: ft_list_foreach.c, ft_list.h
-Funções permitidas: 
+Nome da atribuição   : ft_list_foreach
+Arquivos esperados   : ft_list_foreach.c, ft_list.h
+Funções permitidas   : 
 ----------------------------------------------------------------------------------------
 
 Write a function that takes a list and a function pointer, and applies this
@@ -1872,17 +1760,15 @@ typedef struct    s_list
     struct s_list *next;
     void          *data;
 }                 t_list;
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================4-0-ft_split=========================================
-Nome da atribuição: ft_split
-Arquivos esperados: ft_split.c
-Funções permitidas: malloc
+Nome da atribuição   : ft_split
+Arquivos esperados   : ft_split.c
+Funções permitidas   : malloc
 ----------------------------------------------------------------------------------------
 
 Write a function that takes a string, splits it into words, and returns them as
@@ -1894,17 +1780,15 @@ lines, or by the start/end of the string.
 Your function must be declared as follows:
 
 char    **ft_split(char *str);
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================4-1-rev_wstr=========================================
-Nome da atribuição: rev_wstr
-Arquivos esperados: rev_wstr.c
-Funções permitidas: write, malloc, free
+Nome da atribuição   : rev_wstr
+Arquivos esperados   : rev_wstr.c
+Funções permitidas   : write, malloc, free
 ----------------------------------------------------------------------------------------
 
 Write a program that takes a string as a parameter, and prints its words in 
@@ -1931,17 +1815,15 @@ mont le contempla il$
 $> ./rev_wstr | cat -e
 $
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================4-2-ft_list_remove_if=========================================
-Nome da atribuição: ft_list_remove_if
-Arquivos esperados: ft_list_remove_if.c
-Funções permitidas: free
+Nome da atribuição   : ft_list_remove_if
+Arquivos esperados   : ft_list_remove_if.c
+Funções permitidas   : free
 ----------------------------------------------------------------------------------------
 
 Write a function called ft_list_remove_if that removes from the
@@ -1962,17 +1844,15 @@ typedef struct      s_list
     void            *data;
 }                   t_list;
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================4-3-sort_int_tab=========================================
-Nome da atribuição: sort_int_tab
-Arquivos esperados: sort_int_tab.c
-Funções permitidas: 
+Nome da atribuição   : sort_int_tab
+Arquivos esperados   : sort_int_tab.c
+Funções permitidas   : 
 ----------------------------------------------------------------------------------------
 
 Write the following function:
@@ -1985,17 +1865,15 @@ members, in ascending order.
 Doubles must be preserved.
 
 Input is always coherent.
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================4-3-sort_list=========================================
-Nome da atribuição: sort_list
-Arquivos esperados: sort_list.c
-Funções permitidas: 
+Nome da atribuição   : sort_list
+Arquivos esperados   : sort_list.c
+Funções permitidas   : 
 ----------------------------------------------------------------------------------------
 
 Write the following functions:
@@ -2025,17 +1903,15 @@ int ascending(int a, int b)
 {
 	return (a <= b);
 }
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================4-4-ft_itoa=========================================
-Nome da atribuição: ft_itoa
-Arquivos esperados: ft_itoa.c
-Funções permitidas: malloc
+Nome da atribuição   : ft_itoa
+Arquivos esperados   : ft_itoa.c
+Funções permitidas   : malloc
 ----------------------------------------------------------------------------------------
 
 Write a function that takes an int and converts it to a null-terminated string.
@@ -2044,17 +1920,15 @@ The function returns the result in a char array that you must allocate.
 Your function must be declared as follows:
 
 char	*ft_itoa(int nbr);
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================4-5-check_mate=========================================
-Nome da atribuição: checkmate 
-Arquivos esperados: *.c, *.h
-Funções permitidas: write, malloc, free
+Nome da atribuição   : checkmate 
+Arquivos esperados   : *.c, *.h
+Funções permitidas   : write, malloc, free
 ----------------------------------------------------------------------------------------
 
 Write a program who takes rows of a chessboard in argument and check if your 
@@ -2101,17 +1975,15 @@ Most solutions will:
 Fail$
 As they are only checking in one direction.
 *************************************************
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================4-6-rostring=========================================
-Nome da atribuição: rostring
-Arquivos esperados: rostring.c
-Funções permitidas: write, malloc, free
+Nome da atribuição   : rostring
+Arquivos esperados   : rostring.c
+Funções permitidas   : write, malloc, free
 ----------------------------------------------------------------------------------------
 
 Write a program that takes a string and displays this string after rotating it
@@ -2140,17 +2012,15 @@ $>
 $>./rostring | cat -e
 $
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================5-0-brainfuck=========================================
-Nome da atribuição: brainfuck
-Arquivos esperados: *.c, *.h
-Funções permitidas: write, malloc, free
+Nome da atribuição   : brainfuck
+Arquivos esperados   : *.c, *.h
+Funções permitidas   : write, malloc, free
 ----------------------------------------------------------------------------------------
 
 Write a Brainfuck interpreter program.
@@ -2179,17 +2049,15 @@ $>./brainfuck "+++++[>++++[>++++H>+++++i<<-]>>>++\n<<<<-]>>--------.>+++++.>." |
 Hi$
 $>./brainfuck | cat -e
 $
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================5-1-print_memory=========================================
-Nome da atribuição: print_memory
-Arquivos esperados: print_memory.c
-Funções permitidas: write
+Nome da atribuição   : print_memory
+Arquivos esperados   : print_memory.c
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Write a function that takes (const void *addr, size_t size), and displays the
@@ -2216,17 +2084,15 @@ $> gcc -Wall -Wall -Werror main.c print_memory.c && ./a.out | cat -e
 0c00 0000 1000 0000 1500 0000 2a00 0000 ............*...$
 0000 0000 0000 0000                     ........$
 
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================5-2-ft_itoa_base=========================================
-Nome da atribuição: ft_itoa_base
-Arquivos esperados: ft_itoa_base.c
-Funções permitidas: malloc
+Nome da atribuição   : ft_itoa_base
+Arquivos esperados   : ft_itoa_base.c
+Funções permitidas   : malloc
 ----------------------------------------------------------------------------------------
 
 Write a function that converts an integer value to a null-terminated string
@@ -2244,17 +2110,15 @@ minus sign (-). With any other base, value is always considered unsigned.
 Your function must be declared as follows:
 
 char	*ft_itoa_base(int value, int base);
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================5-3-brackets=========================================
-Nome da atribuição: brackets 
-Arquivos esperados: *.c *.h
-Funções permitidas: write
+Nome da atribuição   : brackets 
+Arquivos esperados   : *.c *.h
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Write a program that takes an undefined number of strings in arguments. For each
@@ -2283,17 +2147,15 @@ OK$
 $> ./brackets | cat -e
 $
 $>
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================5-4-rpn_calc=========================================
-Nome da atribuição: rpn_calc
-Arquivos esperados: *.c, *.h 
-Funções permitidas: atoi, printf, write, malloc, free
+Nome da atribuição   : rpn_calc
+Arquivos esperados   : *.c, *.h 
+Funções permitidas   : atoi, printf, write, malloc, free
 ----------------------------------------------------------------------------------------
 
 Write a program that takes a string which contains an equation written in
@@ -2341,17 +2203,15 @@ $> ./rpn_calc "1 2 3 4 +" | cat -e
 Error$
 $> ./rpn_calc |cat -e
 Error$
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
-
+==========================================================================================
 
 
 
 
 ======================================5-5-options=========================================
-Nome da atribuição: options
-Arquivos esperados: *.c *.h
-Funções permitidas: write
+Nome da atribuição   : options
+Arquivos esperados   : *.c *.h
+Funções permitidas   : write
 ----------------------------------------------------------------------------------------
 
 Write a program that takes an undefined number of arguments which could be 
@@ -2383,5 +2243,4 @@ $>./options -abc -hijk
 options: abcdefghijklmnopqrstuvwxyz
 $>./options -%
 Invalid Option
-
-||||||||||||||||||||||||||||||||||||RESOLUÇÃO||||||||||||||||||||||||||||||||||||
+==========================================================================================
