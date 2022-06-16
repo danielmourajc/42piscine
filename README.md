@@ -1,4 +1,4 @@
-<h2>O que fazer nas piscine, semana a semana:<\h2>
+<h1>O que fazer nas piscine, semana a semana:
 
 SEMANA 1: Shell00, Shell01, C00, C01
 - Não perca tanto tempo no projeto shell01, você deve aprender a linguagem C e trabalhar em C00 e C01, porque o exame é em linguagem c.
