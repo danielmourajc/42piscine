@@ -6,10 +6,11 @@ ARQUIVOS ESPERADOS: aff_a.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva um programa que receba uma string e exiba o primeiro caractere 'a' encontrado nele, seguido por uma nova linha. Se não houver caracteres 'a' na string, o programa apenas escreve uma nova linha. Se o número de parâmetros não for 1, o programa exibe 'a' seguido por uma nova linha.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./aff_a "abc" | cat -e
 a$
 $> ./aff_a "dubO a POIL" | cat -e
@@ -19,8 +20,8 @@ $
 $> ./aff_a | cat -e
 a$
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 int	main(int argc, char **argv)
@@ -44,21 +45,24 @@ int	main(int argc, char **argv)
 	return (0);
 }
 
+
 --------------------------------
 EXERCÍCIO: 0-0-ft_countdown
 ARQUIVOS ESPERADOS: ft_countdown.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva um programa que exiba todos os dígitos em ordem decrescente, seguidos por um nova linha.
+
 
 EXEMPLOS:
 $> ./ft_countdown | cat -e
 9876543210$
 $>
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 int	main(void)
@@ -76,13 +80,13 @@ int	main(void)
 }
 
 
-
 --------------------------------
 EXERCÍCIO: 0-0-ft_print_numbers
 ARQUIVOS ESPERADOS: ft_print_numbers.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva uma função que exiba todos os dígitos em ordem crescente.
 
 Sua função deve ser declarada da seguinte forma:
@@ -91,7 +95,6 @@ void	ft_print_numbers(void);
 
 
 RESOLUÇÃO:
-
 #include <unistd.h>
 
 void	ft_print_numbers(void)
@@ -108,25 +111,25 @@ void	ft_print_numbers(void)
 }
 
 
-
 --------------------------------
 EXERCÍCIO: 0-0-hello
 ARQUIVOS ESPERADOS: hello.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva um programa que exiba "Hello World!" seguido por um \n.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $>./hello
 Hello World!
 $>./hello | cat -e
 Hello World!$
 $>
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 int	main(void)
@@ -136,22 +139,22 @@ int	main(void)
 }
 
 
-
 --------------------------------
 EXERCÍCIO: 0-0-maff_alpha
 ARQUIVOS ESPERADOS: maff_alpha.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva um programa que exiba o alfabeto, com letras pares em maiúsculas, e letras ímpares em minúsculas, seguidas por uma nova linha.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./maff_alpha | cat -e
 aBcDeFgHiJkLmNoPqRsTuVwXyZ$
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 void	ft_putchar(char c)
@@ -183,12 +186,13 @@ ARQUIVOS ESPERADOS: aff_first_param.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva um programa que receba strings como argumentos e exiba seu primeiro argumento seguido por um \n.
 
 Se o número de argumentos for menor que 1, o programa exibirá \n.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./aff_first_param vincent mit "l'ane" dans un pre et "s'en" vint | cat -e
 vincent$
 $> ./aff_first_param "j'aime le fromage de chevre" | cat -e
@@ -196,8 +200,8 @@ j'aime le fromage de chevre$
 $> ./aff_first_param
 $
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 int	main(int argc, char **argv)
@@ -210,19 +214,19 @@ int	main(int argc, char **argv)
 }
 
 
-
 --------------------------------
 EXERCÍCIO: 0-1-aff_last_param
 ARQUIVOS ESPERADOS: aff_last_param.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva um programa que receba strings como argumentos e exiba seu último argumento seguido por uma nova linha.
 
 Se o número de argumentos for menor que 1, o programa exibirá uma nova linha.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./aff_last_param "zaz" "mange" "des" "chats" | cat -e
 chats$
 $> ./aff_last_param "j'aime le savon" | cat -e
@@ -230,8 +234,8 @@ j'aime le savon$
 $> ./aff_last_param
 $
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 int	main(int argc, char **argv)
@@ -244,22 +248,22 @@ int	main(int argc, char **argv)
 }
 
 
-
 --------------------------------
 EXERCÍCIO: 0-1-maff_revalpha
 ARQUIVOS ESPERADOS: maff_revalpha.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva um programa que mostre o alfabeto ao contrário, com letras pares em maiúsculas e letras ímpares em minúsculas, seguidas de uma nova linha.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./maff_revalpha | cat -e
 zYxWvUtSrQpOnMlKjIhGfEdCbA$
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 void	ft_putchar(char c)
@@ -285,17 +289,17 @@ int	main(void)
 }
 
 
-
 --------------------------------
 EXERCÍCIO: 0-1-only_a
 ARQUIVOS ESPERADOS: only_a.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva um programa que exiba um caractere 'a' na saída padrão.
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 int	main(void)
@@ -304,16 +308,18 @@ int	main(void)
 	return(0);
 }
 
+
 --------------------------------
 EXERCÍCIO: 0-1-only_z
 ARQUIVOS ESPERADOS: only_z.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva um programa que exiba um caractere 'z' na saída padrão.
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 int	main(void)
@@ -329,10 +335,11 @@ ARQUIVOS ESPERADOS: aff_z.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva um programa que receba uma string e exiba o primeiro 'z' caractere que encontra nele, seguido por uma nova linha. Se não houver caracteres 'z' na string, o programa escreve 'z' seguido por uma nova linha. Se o número de parâmetros não for 1, o programa exibe 'z' seguido por uma nova linha.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./aff_z "abc" | cat -e
 z$
 $> ./aff_z "dubO a POIL" | cat -e
@@ -342,8 +349,8 @@ z$
 $> ./aff_z | cat -e
 z$
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 int	main(int ac, char **av)
@@ -367,17 +374,19 @@ int	main(int ac, char **av)
 	return (0);
 }
 
+
 --------------------------------
 EXERCÍCIO: 1-0-ft_strcpy
 ARQUIVOS ESPERADOS: ft_strcpy.c
 FUNÇÕES PERMITIDAS: 
 
-
+ENUNCIADO:
 Reproduza o comportamento da função strcpy (man strcpy).
 
 Sua função deve ser declarada da seguinte forma:
 
 char    *ft_strcpy(char *dest, char *src);
+
 
 RESOLUÇÃO:
 
@@ -395,17 +404,20 @@ char	*ft_strcpy(char *dest, char *src)
 	return (dest);
 }
 
+
 --------------------------------
 EXERCÍCIO: 1-0-ft_strlen
 ARQUIVOS ESPERADOS: ft_strlen.c
 FUNÇÕES PERMITIDAS: 
 
 
+ENUNCIADO:
 Escreva uma função que retorne o comprimento de uma string.
 
 Sua função deve ser declarada da seguinte forma:
 
 int	ft_strlen(char *str);
+
 
 RESOLUÇÃO:
 
@@ -420,13 +432,13 @@ int	ft_strlen(char *str)
 }
 
 
-
 --------------------------------
 EXERCÍCIO: 1-0-repeat_alpha
 ARQUIVOS ESPERADOS: repeat_alpha.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva um programa chamado repeat_alpha que receba uma string e a exiba repetindo cada caractere alfabético tantas vezes quanto seu índice alfabético, seguido por uma nova linha.
 
 'a' vira 'a', 'b' vira 'bb', 'e' vira 'eeee', etc...
@@ -435,8 +447,8 @@ Caso permanece inalterado.
 
 Se o número de argumentos não for 1, basta exibir uma nova linha.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $>./repeat_alpha "abc"
 abbccc
 $>./repeat_alpha "Alex." | cat -e
@@ -450,8 +462,8 @@ $>./repeat_alpha "" | cat -e
 $
 $>
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 int	main(int ac, char **av)
@@ -479,17 +491,20 @@ int	main(int ac, char **av)
 	return (0);
 }
 
+
 --------------------------------
 EXERCÍCIO: 1-0-search_and_replace
 ARQUIVOS ESPERADOS: search_and_replace.c
 FUNÇÕES PERMITIDAS: write, exit
 
 
+ENUNCIADO:
 Escreva um programa chamado search_and_replace que receba 3 argumentos, o primeiro argumentos é uma string na qual substituir uma letra (2º argumento) por outro (3º argumento).
 
 Se o número de argumentos não for 3, basta exibir uma nova linha.
 
 Se o segundo argumento não estiver contido no primeiro (a string) então o programa simplesmente reescreve a string seguida por uma nova linha.
+
 
 EXEMPLOS:
 $>./search_and_replace "Papache est un sabre" "a" "o"
@@ -505,8 +520,8 @@ ZaZ eT David aiME le METal.$
 $>./search_and_replace "wNcOre Un ExEmPle Pas Facilw a Ecrirw " "w" "e" | cat -e
 eNcOre Un ExEmPle Pas Facile a Ecrire $
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 int main(int ac, char **av)
@@ -539,6 +554,7 @@ ARQUIVOS ESPERADOS: ulstr.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva um programa que receba uma string e inverta as maiúsculas e minúsculas de todas as suas letras.
 Outros caracteres permanecem inalterados.
 
@@ -546,8 +562,8 @@ Você deve exibir o resultado seguido por um '\n'.
 
 Se o número de argumentos não for 1, o programa exibirá '\n'.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $>./ulstr "L'eSPrit nE peUt plUs pRogResSer s'Il staGne et sI peRsIsTent VAnIte et auto-justification." | cat -e
 l'EspRIT Ne PEuT PLuS PrOGrESsER S'iL STAgNE ET Si PErSiStENT vaNiTE ET AUTO-JUSTIFICATION.$
 $>./ulstr "S'enTOuRer dE sECreT eSt uN sIGnE De mAnQuE De coNNaiSSanCe.  " | cat -e
@@ -557,8 +573,8 @@ $>./ulstr "3:21 Ba  tOut  moUn ki Ka di KE m'en Ka fe fot" | cat -e
 $>./ulstr | cat -e
 $
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 int	main(int argc, char *argv[])
@@ -584,12 +600,14 @@ int	main(int argc, char *argv[])
 	return (0);
 }
 
+
 --------------------------------
 EXERCÍCIO: 1-1-rot_13
 ARQUIVOS ESPERADOS: rot_13.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva um programa que pegue uma string e a exiba, substituindo cada uma de suas letras pela letra 13 espaços à frente em ordem alfabética.
 
 'z' torna-se 'm' e 'Z' torna-se 'M'. Caso permanece inalterado.
@@ -598,8 +616,8 @@ A saída será seguida por uma nova linha.
 
 Se o número de argumentos não for 1, o programa exibirá uma nova linha.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $>./rot_13 "abc"
 nop
 $>./rot_13 "My horse is Amazing." | cat -e
@@ -613,8 +631,8 @@ $>./rot_13 "" | cat -e
 $
 $>
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 int main(int argc, char **argv)
@@ -649,14 +667,15 @@ ARQUIVOS ESPERADOS: first_word.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva um programa que receba uma string e exiba sua primeira palavra, seguida por um nova linha.
 
 Uma palavra é uma seção de string delimitada por espaços/tabulações ou pelo início/fim da string.
 
 Se o número de parâmetros não for 1, ou se não houver palavras, basta exibir uma nova linha.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./first_word "FOR PONY" | cat -e
 FOR$
 $> ./first_word "this        ...       is sparta, then again, maybe    not" | cat -e
@@ -669,8 +688,8 @@ $> ./first_word "  lorem,ipsum  " | cat -e
 lorem,ipsum$
 $>
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 int	main(int ac, char **av)
@@ -687,12 +706,12 @@ int	main(int ac, char **av)
 }
 
 
-
 --------------------------------
 EXERCÍCIO: 1-2-ft_putstr
 ARQUIVOS ESPERADOS: ft_putstr.c
 FUNÇÕES PERMITIDAS: write
 
+ENUNCIADO:
 Escreva uma função que exiba uma string na saída padrão.
 
 O ponteiro passado para a função contém o endereço da primeira string
@@ -702,8 +721,8 @@ Sua função deve ser declarada da seguinte forma:
 
 void	ft_putstr(char *str);
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 void	ft_putstr(char *str)
@@ -719,12 +738,14 @@ ARQUIVOS ESPERADOS: ft_swap.c
 FUNÇÕES PERMITIDAS: 
 
 
+ENUNCIADO:
 Escreva uma função que troque o conteúdo de dois inteiros cujos endereços
 são passados como parâmetros.
 
 Sua função deve ser declarada da seguinte forma:
 
 void	ft_swap(int *a, int *b);
+
 
 RESOLUÇÃO:
 
@@ -737,18 +758,20 @@ void	ft_swap(int *a, int *b)
 	*b = tmp;
 }
 
+
 --------------------------------
 EXERCÍCIO: 1-3-rev_print
 ARQUIVOS ESPERADOS: rev_print.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva um programa que receba uma string e exiba a string ao contrário seguido por uma nova linha.
 
 Se o número de parâmetros não for 1, o programa exibe uma nova linha.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./rev_print "zaz" | cat -e
 zaz$
 $> ./rev_print "dub0 a POIL" | cat -e
@@ -756,8 +779,8 @@ LIOP a 0bud$
 $> ./rev_print | cat -e
 $
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 int	main(int ac, char *av[])
@@ -783,6 +806,9 @@ ARQUIVOS ESPERADOS: rotone.c
 FUNÇÕES PERMITIDAS: write
 
 
+
+
+ENUNCIADO:
 Escreva um programa que pegue uma string e a exiba, substituindo cada uma de suas letras pela próxima em ordem alfabética.
 
 'z' torna-se 'a' e 'Z' torna-se 'A'. Caso permanece inalterado.
@@ -791,8 +817,8 @@ A saída será seguida por um \n.
 
 Se o número de argumentos não for 1, o programa exibirá \n.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $>./rotone "abc"
 bcd
 $>./rotone "Les stagiaires du staff ne sentent pas toujours tres bon." | cat -e
@@ -805,6 +831,7 @@ $>
 $>./rotone "" | cat -e
 $
 $>
+
 
 RESOLUÇÃO:
 
@@ -833,14 +860,14 @@ int    main(int argc, char *argv[])
 	return (0);
 }
 
+
 --------------------------------
 EXERCÍCIO: 2-0-fizzbuzz
 ARQUIVOS ESPERADOS: fizzbuzz.c
 FUNÇÕES PERMITIDAS: write
 
-RESOLUÇÃO:
 
-
+ENUNCIADO:
 Escreva um programa que imprima os números de 1 a 100, cada um separado por uma nova linha.
 
 Se o número for um múltiplo de 3, ele imprimirá 'fizz' em vez disso.
@@ -849,8 +876,8 @@ Se o número for um múltiplo de 5, ele imprimirá 'buzz' em vez disso.
 
 Se o número for múltiplo de 3 e múltiplo de 5, ele imprimirá 'fizzbuzz'.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $>./fizzbuzz
 1
 2
@@ -874,8 +901,8 @@ fizz
 buzz
 $>
 
-RESOLUÇÃO:
 
+RESOLUÇÃO:
 #include <unistd.h>
 
 void print(int nbr)
@@ -908,12 +935,14 @@ int main()
     }
 }
 
+
 --------------------------------
 EXERCÍCIO: 2-0-ft_atoi
 ARQUIVOS ESPERADOS: ft_atoi.c
 FUNÇÕES PERMITIDAS: None
 
 
+ENUNCIADO:
 Escreva uma função que converta o argumento string str em um inteiro (tipo int) e retorne ele.
 
 Funciona muito parecido com a função padrão atoi(const char *str), veja o man.
@@ -921,6 +950,7 @@ Funciona muito parecido com a função padrão atoi(const char *str), veja o man
 Sua função deve ser declarada da seguinte forma:
 
 int	ft_atoi(const char *str);
+
 
 RESOLUÇÃO:
 
@@ -946,7 +976,6 @@ int	ft_atoi(char *str)
 }
 
 
-
 --------------------------------
 EXERCÍCIO: 2-0-ft_strdup
 ARQUIVOS ESPERADOS: ft_strdup.c
@@ -958,6 +987,7 @@ Reproduce the behavior of the function strdup (man strdup).
 Your function must be declared as follows:
 
 char    *ft_strdup(char *src);
+
 
 RESOLUÇÃO:
 
@@ -971,14 +1001,15 @@ ARQUIVOS ESPERADOS: inter.c
 FUNÇÕES PERMITIDAS: write
 
 
+ENUNCIADO:
 Escreva um programa que receba duas strings e exiba, sem doubles, os caracteres que aparecem em ambas as strings, na ordem em que aparecem na primeira.
 
 A exibição será seguida por um \n.
 
 Se o número de argumentos não for 2, o programa exibirá \n.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $>./inter "padinton" "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
 padinto$
 $>./inter ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
@@ -987,6 +1018,7 @@ $>./inter "rien" "cette phrase ne cache rien" | cat -e
 rien$
 $>./inter | cat -e
 $
+
 
 RESOLUÇÃO:
 
@@ -1000,15 +1032,16 @@ ARQUIVOS ESPERADOS: last_word.c
 FUNÇÕES PERMITIDAS: write
 
 
-Write a program that takes a string and displays its last word followed by a \n.
+ENUNCIADO:
+Escreva a program that takes a string and displays its last word followed by a \n.
 
 A word is a section of string delimited by spaces/tabs or by the start/end of
 the string.
 
 If the number of parameters is not 1, or there are no words, display a newline.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./last_word "FOR PONY" | cat -e
 PONY$
 $> ./last_word "this        ...       is sparta, then again, maybe    not" | cat -e
@@ -1020,6 +1053,7 @@ $
 $> ./last_word "  lorem,ipsum  " | cat -e
 lorem,ipsum$
 $>
+
 
 RESOLUÇÃO:
 
@@ -1033,21 +1067,23 @@ ARQUIVOS ESPERADOS: reverse_bits.c
 FUNÇÕES PERMITIDAS:
 
 
-Write a function that takes a byte, reverses it, bit by bit (like the
+ENUNCIADO:
+Escreva a function that takes a byte, reverses it, bit by bit (like the
 EXEMPLOS) and returns the result.
 
 Your function must be declared as follows:
 
 unsigned char	reverse_bits(unsigned char octet);
 
-EXEMPLOS:
 
-  1 byte
+EXEMPLOS:
+1 byte
 _____________
  0010  0110
 	 ||
 	 \/
  0110  0100
+
 
 RESOLUÇÃO:
 
@@ -1061,21 +1097,23 @@ ARQUIVOS ESPERADOS: swap_bits.c
 FUNÇÕES PERMITIDAS:
 
 
-Write a function that takes a byte, swaps its halves (like the EXEMPLOS) and
+ENUNCIADO:
+Escreva a function that takes a byte, swaps its halves (like the EXEMPLOS) and
 returns the result.
 
 Your function must be declared as follows:
 
 unsigned char	swap_bits(unsigned char octet);
 
-EXEMPLOS:
 
-  1 byte
+EXEMPLOS:
+1 byte
 _____________
  0100 | 0001
      \ /
      / \
  0001 | 0100
+
 
 RESOLUÇÃO:
 
@@ -1089,7 +1127,8 @@ ARQUIVOS ESPERADOS: union.c
 FUNÇÕES PERMITIDAS: write
 
 
-Write a program that takes two strings and displays, without doubles, the
+ENUNCIADO:
+Escreva a program that takes two strings and displays, without doubles, the
 characters that appear in either one of the strings.
 
 The display will be in the order characters appear in the command line, and
@@ -1097,8 +1136,8 @@ will be followed by a \n.
 
 If the number of arguments is not 2, the program displays \n.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $>./union zpadinton "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
 zpadintoqefwjy$
 $>./union ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
@@ -1112,6 +1151,7 @@ $>./union "rien" | cat -e
 $
 $>
 
+
 RESOLUÇÃO:
 
 
@@ -1124,7 +1164,8 @@ ARQUIVOS ESPERADOS: alpha_mirror.c
 FUNÇÕES PERMITIDAS: write
 
 
-Write a program called alpha_mirror that takes a string and displays this string
+ENUNCIADO:
+Escreva a program called alpha_mirror that takes a string and displays this string
 after replacing each alphabetical character by the opposite alphabetical
 character, followed by a newline.
 
@@ -1137,8 +1178,8 @@ Case is not changed.
 
 If the number of arguments is not 1, display only a newline.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $>./alpha_mirror "abc"
 zyx
 $>./alpha_mirror "My horse is Amazing." | cat -e
@@ -1146,6 +1187,7 @@ Nb slihv rh Znzarmt.$
 $>./alpha_mirror | cat -e
 $
 $>
+
 
 RESOLUÇÃO:
 
@@ -1159,7 +1201,8 @@ ARQUIVOS ESPERADOS: max.c
 FUNÇÕES PERMITIDAS: 
 
 
-Write the following function:
+ENUNCIADO:
+Escreva the following function:
 
 int		max(int* tab, unsigned int len);
 
@@ -1169,6 +1212,7 @@ the array.
 The function returns the largest number found in the array.
 
 If the array is empty, the function returns 0.
+
 
 RESOLUÇÃO:
 
@@ -1182,7 +1226,8 @@ ARQUIVOS ESPERADOS: wdmatch.c
 FUNÇÕES PERMITIDAS: write
 
 
-Write a program that takes two strings and checks whether it's possible to
+ENUNCIADO:
+Escreva a program that takes two strings and checks whether it's possible to
 write the first string with characters from the second string, while respecting
 the order in which these characters appear in the second string.
 
@@ -1191,8 +1236,8 @@ it simply displays a \n.
 
 If the number of arguments is not 2, the program displays a \n.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $>./wdmatch "faya" "fgvvfdxcacpolhyghbreda" | cat -e
 faya$
 $>./wdmatch "faya" "fgvvfdxcacpolhyghbred" | cat -e
@@ -1203,6 +1248,7 @@ $>./wdmatch "error" rrerrrfiiljdfxjyuifrrvcoojh | cat -e
 $
 $>./wdmatch | cat -e
 $
+
 
 RESOLUÇÃO:
 
@@ -1216,7 +1262,8 @@ ARQUIVOS ESPERADOS: *.c, *.h
 FUNÇÕES PERMITIDAS: atoi, printf, write
 
 
-Write a program that takes three strings:
+ENUNCIADO:
+Escreva a program that takes three strings:
 - The first and the third one are representations of base-10 signed integers
   that fit in an int.
 - The second one is an arithmetic operator chosen from: + - * / %
@@ -1229,8 +1276,8 @@ You can assume the string have no mistakes or extraneous characters. Negative
 numbers, in input or output, will have one and only one leading '-'. The
 result of the operation fits in an int.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./do_op "123" "*" 456 | cat -e
 56088$
 $> ./do_op "9828" "/" 234 | cat -e
@@ -1239,6 +1286,7 @@ $> ./do_op "1" "+" "-43" | cat -e
 -42$
 $> ./do_op | cat -e
 $
+
 
 RESOLUÇÃO:
 
@@ -1252,7 +1300,8 @@ ARQUIVOS ESPERADOS: print_bits.c
 FUNÇÕES PERMITIDAS: write
 
 
-Write a function that takes a byte, and prints it in binary WITHOUT A NEWLINE
+ENUNCIADO:
+Escreva a function that takes a byte, and prints it in binary WITHOUT A NEWLINE
 AT THE END.
 
 Your function must be declared as follows:
@@ -1260,6 +1309,7 @@ Your function must be declared as follows:
 void	print_bits(unsigned char octet);
 
 EXEMPLOS, if you pass 2 to print_bits, it will print "00000010"
+
 
 RESOLUÇÃO:
 
@@ -1279,6 +1329,7 @@ Your function must be declared as follows:
 
 int    ft_strcmp(char *s1, char *s2);
 
+
 RESOLUÇÃO:
 
 
@@ -1291,13 +1342,15 @@ ARQUIVOS ESPERADOS: ft_strrev.c
 FUNÇÕES PERMITIDAS: 
 
 
-Write a function that reverses (in-place) a string.
+ENUNCIADO:
+Escreva a function that reverses (in-place) a string.
 
 It must return its parameter.
 
 Your function must be declared as follows:
 
 char    *ft_strrev(char *str);
+
 
 RESOLUÇÃO:
 
@@ -1311,13 +1364,15 @@ ARQUIVOS ESPERADOS: is_power_of_2.c
 FUNÇÕES PERMITIDAS: None
 
 
-Write a function that determines if a given number is a power of 2.
+ENUNCIADO:
+Escreva a function that determines if a given number is a power of 2.
 
 This function returns 1 if the given number is a power of 2, otherwise it returns 0.
 
 Your function must be declared as follows:
 
 int	    is_power_of_2(unsigned int n);
+
 
 RESOLUÇÃO:
 
@@ -1331,7 +1386,8 @@ ARQUIVOS ESPERADOS: add_prime_sum.c
 FUNÇÕES PERMITIDAS: write, exit
 
 
-Write a program that takes a positive integer as argument and displays the sum
+ENUNCIADO:
+Escreva a program that takes a positive integer as argument and displays the sum
 of all prime numbers inferior or equal to it followed by a newline.
 
 If the number of arguments is not 1, or the argument is not a positive number,
@@ -1339,8 +1395,8 @@ just display 0 followed by a newline.
 
 Yes, the EXEMPLOS are right.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $>./add_prime_sum 5
 10
 $>./add_prime_sum 7 | cat -e
@@ -1348,6 +1404,7 @@ $>./add_prime_sum 7 | cat -e
 $>./add_prime_sum | cat -e
 0$
 $>
+
 
 RESOLUÇÃO:
 
@@ -1361,7 +1418,8 @@ ARQUIVOS ESPERADOS: epur_str.c
 FUNÇÕES PERMITIDAS: write
 
 
-Write a program that takes a string, and displays this string with exactly one
+ENUNCIADO:
+Escreva a program that takes a string, and displays this string with exactly one
 space between words, with no spaces or tabs either at the beginning or the end,
 followed by a \n.
 
@@ -1371,8 +1429,8 @@ by the start/end of the string.
 If the number of arguments is not 1, or if there are no words to display, the
 program displays \n.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./epur_str "vous voyez c'est facile d'afficher la meme chose" | cat -e
 vous voyez c'est facile d'afficher la meme chose$
 $> ./epur_str " seulement          la c'est      plus dur " | cat -e
@@ -1382,6 +1440,7 @@ $
 $> ./epur_str "" | cat -e
 $
 $>
+
 
 RESOLUÇÃO:
 
@@ -1395,7 +1454,8 @@ ARQUIVOS ESPERADOS: ft_list_size.c, ft_list.h
 FUNÇÕES PERMITIDAS: 
 
 
-Write a function that returns the number of elements in the linked list that's
+ENUNCIADO:
+Escreva a function that returns the number of elements in the linked list that's
 passed to it.
 
 It must be declared as follows:
@@ -1411,6 +1471,7 @@ typedef struct    s_list
     void          *data;
 }                 t_list;
 
+
 RESOLUÇÃO:
 
 
@@ -1423,7 +1484,8 @@ ARQUIVOS ESPERADOS: ft_rrange.c
 FUNÇÕES PERMITIDAS: malloc
 
 
-Write the following function:
+ENUNCIADO:
+Escreva the following function:
 
 int     *ft_rrange(int start, int end);
 
@@ -1431,12 +1493,13 @@ It must allocate (with malloc()) an array of integers, fill it with consecutive
 values that begin at end and end at start (Including start and end !), then
 return a pointer to the first value of the array.
 
-EXEMPLOS:
 
+EXEMPLOS:
 - With (1, 3) you will return an array containing 3, 2 and 1
 - With (-1, 2) you will return an array containing 2, 1, 0 and -1.
 - With (0, 0) you will return an array containing 0.
 - With (0, -3) you will return an array containing -3, -2, -1 and 0.
+
 
 RESOLUÇÃO:
 
@@ -1450,7 +1513,8 @@ ARQUIVOS ESPERADOS: hidenp.c
 FUNÇÕES PERMITIDAS: write
 
 
-Write a program named hidenp that takes two strings and displays 1
+ENUNCIADO:
+Escreva a program named hidenp that takes two strings and displays 1
 followed by a newline if the first string is hidden in the second one,
 otherwise displays 0 followed by a newline.
 
@@ -1460,8 +1524,8 @@ Also, the empty string is hidden in any string.
 
 If the number of parameters is not 2, the program displays a newline.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $>./hidenp "fgex.;" "tyf34gdgf;'ektufjhgdgex.;.;rtjynur6" | cat -e
 1$
 $>./hidenp "abc" "2altrb53c.sse" | cat -e
@@ -1471,6 +1535,7 @@ $>./hidenp "abc" "btarc" | cat -e
 $>./hidenp | cat -e
 $
 $>
+
 
 RESOLUÇÃO:
 
@@ -1484,7 +1549,8 @@ ARQUIVOS ESPERADOS: pgcd.c
 FUNÇÕES PERMITIDAS: printf, atoi, malloc, free
 
 
-Write a program that takes two strings representing two strictly positive
+ENUNCIADO:
+Escreva a program that takes two strings representing two strictly positive
 integers that fit in an int.
 
 Display their highest common denominator followed by a newline (It's always a
@@ -1492,8 +1558,8 @@ strictly positive integer).
 
 If the number of parameters is not 2, display a newline.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./pgcd 42 10 | cat -e
 2$
 $> ./pgcd 42 12 | cat -e
@@ -1504,6 +1570,7 @@ $> ./pgcd 17 3 | cat -e
 1$
 $> ./pgcd | cat -e
 $
+
 
 RESOLUÇÃO:
 
@@ -1517,13 +1584,14 @@ ARQUIVOS ESPERADOS: print_hex.c
 FUNÇÕES PERMITIDAS: write
 
 
-Write a program that takes a positive (or zero) number expressed in base 10,
+ENUNCIADO:
+Escreva a program that takes a positive (or zero) number expressed in base 10,
 and displays it in base 16 (lowercase letters) followed by a newline.
 
 If the number of parameters is not 1, the program displays a newline.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./print_hex "10" | cat -e
 a$
 $> ./print_hex "255" | cat -e
@@ -1532,6 +1600,7 @@ $> ./print_hex "5156454" | cat -e
 4eae66$
 $> ./print_hex | cat -e
 $
+
 
 RESOLUÇÃO:
 
@@ -1545,7 +1614,8 @@ ARQUIVOS ESPERADOS: rstr_capitalizer.c
 FUNÇÕES PERMITIDAS: write
 
 
-Write a program that takes one or more strings and, for each argument, puts 
+ENUNCIADO:
+Escreva a program that takes one or more strings and, for each argument, puts 
 the last character of each word (if it's a letter) in uppercase and the rest
 in lowercase, then displays the result followed by a \n.
 
@@ -1554,8 +1624,8 @@ string. If a word has a single letter, it must be capitalized.
 
 If there are no parameters, display \n.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./rstr_capitalizer | cat -e
 $
 $> ./rstr_capitalizer "Premier PETIT TesT" | cat -e
@@ -1565,6 +1635,7 @@ deuxiemE tesT uN peU moinS  facilE$
    attentioN c'esT paS duR quanD memE$
 alleR uN dernieR 0123456789pouR lA routE    E $
 $>
+
 
 RESOLUÇÃO:
 
@@ -1578,7 +1649,8 @@ ARQUIVOS ESPERADOS: expand_str.c
 FUNÇÕES PERMITIDAS: write
 
 
-Write a program that takes a string and displays it with exactly three spaces
+ENUNCIADO:
+Escreva a program that takes a string and displays it with exactly three spaces
 between each word, with no spaces or tabs either at the beginning or the end,
 followed by a newline.
 
@@ -1588,8 +1660,8 @@ start/end of the string.
 If the number of parameters is not 1, or if there are no words, simply display
 a newline.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./expand_str "vous   voyez   c'est   facile   d'afficher   la   meme   chose" | cat -e
 vous   voyez   c'est   facile   d'afficher   la   meme   chose$
 $> ./expand_str " seulement          la c'est      plus dur " | cat -e
@@ -1599,6 +1671,7 @@ $
 $> ./expand_str "" | cat -e
 $
 $>
+
 
 RESOLUÇÃO:
 
@@ -1612,15 +1685,16 @@ ARQUIVOS ESPERADOS: tab_mult.c
 FUNÇÕES PERMITIDAS: write
 
 
-Write a program that displays a number's multiplication table.
+ENUNCIADO:
+Escreva a program that displays a number's multiplication table.
 
 The parameter will always be a strictly positive number that fits in an int,
 and said number times 9 will also fit in an int.
 
 If there are no parameters, the program displays \n.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $>./tab_mult 9
 1 x 9 = 9
 2 x 9 = 18
@@ -1646,6 +1720,7 @@ $>./tab_mult | cat -e
 $
 $>
 
+
 RESOLUÇÃO:
 
 
@@ -1658,7 +1733,8 @@ ARQUIVOS ESPERADOS: ft_atoi_base.c
 FUNÇÕES PERMITIDAS: None
 
 
-Write a function that converts the string argument str (base N <= 16)
+ENUNCIADO:
+Escreva a function that converts the string argument str (base N <= 16)
 to an integer (base 10) and returns it.
 
 The characters recognized in the input are: 0123456789abcdef
@@ -1674,6 +1750,7 @@ Your function must be declared as follows:
 
 int	ft_atoi_base(const char *str, int str_base);
 
+
 RESOLUÇÃO:
 
 
@@ -1686,7 +1763,8 @@ ARQUIVOS ESPERADOS: ft_range.c
 FUNÇÕES PERMITIDAS: malloc
 
 
-Write the following function:
+ENUNCIADO:
+Escreva the following function:
 
 int     *ft_range(int start, int end);
 
@@ -1694,12 +1772,13 @@ It must allocate (with malloc()) an array of integers, fill it with consecutive
 values that begin at start and end at end (Including start and end !), then
 return a pointer to the first value of the array.
 
-EXEMPLOS:
 
+EXEMPLOS:
 - With (1, 3) you will return an array containing 1, 2 and 3.
 - With (-1, 2) you will return an array containing -1, 0, 1 and 2.
 - With (0, 0) you will return an array containing 0.
 - With (0, -3) you will return an array containing 0, -1, -2 and -3.
+
 
 RESOLUÇÃO:
 
@@ -1713,13 +1792,14 @@ ARQUIVOS ESPERADOS: paramsum.c
 FUNÇÕES PERMITIDAS: write
 
 
-Write a program that displays the number of arguments passed to it, followed by
+ENUNCIADO:
+Escreva a program that displays the number of arguments passed to it, followed by
 a newline.
 
 If there are no arguments, just display a 0 followed by a newline.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $>./paramsum 1 2 3 5 7 24
 6
 $>./paramsum 6 12 24 | cat -e
@@ -1727,6 +1807,7 @@ $>./paramsum 6 12 24 | cat -e
 $>./paramsum | cat -e
 0$
 $>
+
 
 RESOLUÇÃO:
 
@@ -1740,7 +1821,8 @@ ARQUIVOS ESPERADOS: str_capitalizer.c
 FUNÇÕES PERMITIDAS: write
 
 
-Write a program that takes one or several strings and, for each argument,
+ENUNCIADO:
+Escreva a program that takes one or several strings and, for each argument,
 capitalizes the first character of each word (If it's a letter, obviously),
 puts the rest in lowercase, and displays the result on the standard output,
 followed by a \n.
@@ -1751,8 +1833,8 @@ capitalized.
 
 If there are no arguments, the progam must display \n.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./str_capitalizer | cat -e
 $
 $> ./str_capitalizer "Premier PETIT TesT" | cat -e
@@ -1762,6 +1844,7 @@ Deuxieme Test Un Peu Moins  Facile$
    Attention C'est Pas Dur Quand Meme$
 Aller Un Dernier 0123456789pour La Route    E $
 $>
+
 
 RESOLUÇÃO:
 
@@ -1775,7 +1858,8 @@ ARQUIVOS ESPERADOS: lcm.c
 FUNÇÕES PERMITIDAS:
 
 
-Write a function who takes two unsigned int as parameters and returns the
+ENUNCIADO:
+Escreva a function who takes two unsigned int as parameters and returns the
 computed LCM of those parameters.
 
 LCM (Lowest Common Multiple) of two non-zero integers is the smallest postive
@@ -1799,6 +1883,7 @@ Your function must be prototyped as follows:
 
   unsigned int    lcm(unsigned int a, unsigned int b);
 
+
 RESOLUÇÃO:
 
 
@@ -1811,7 +1896,8 @@ ARQUIVOS ESPERADOS: fprime.c
 FUNÇÕES PERMITIDAS: printf, atoi
 
 
-Write a program that takes a positive int and displays its prime factors on the
+ENUNCIADO:
+Escreva a program that takes a positive int and displays its prime factors on the
 standard output, followed by a newline.
 
 Factors must be displayed in ascending order and separated by '*', so that
@@ -1821,8 +1907,8 @@ If the number of parameters is not 1, simply display a newline.
 
 The input, when there's one, will be valid.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./fprime 225225 | cat -e
 3*3*5*5*7*11*13$
 $> ./fprime 8333325 | cat -e
@@ -1840,6 +1926,7 @@ $
 $> ./fprime 42 21 | cat -e
 $
 
+
 RESOLUÇÃO:
 
 
@@ -1852,7 +1939,8 @@ ARQUIVOS ESPERADOS: ft_list_foreach.c, ft_list.h
 FUNÇÕES PERMITIDAS: 
 
 
-Write a function that takes a list and a function pointer, and applies this
+ENUNCIADO:
+Escreva a function that takes a list and a function pointer, and applies this
 function to each element of the list.
 
 It must be declared as follows:
@@ -1872,6 +1960,7 @@ typedef struct    s_list
     void          *data;
 }                 t_list;
 
+
 RESOLUÇÃO:
 
 
@@ -1884,7 +1973,8 @@ ARQUIVOS ESPERADOS: ft_split.c
 FUNÇÕES PERMITIDAS: malloc
 
 
-Write a function that takes a string, splits it into words, and returns them as
+ENUNCIADO:
+Escreva a function that takes a string, splits it into words, and returns them as
 a NULL-terminated array of strings.
 
 A "word" is defined as a part of a string delimited either by spaces/tabs/new
@@ -1893,6 +1983,7 @@ lines, or by the start/end of the string.
 Your function must be declared as follows:
 
 char    **ft_split(char *str);
+
 
 RESOLUÇÃO:
 
@@ -1906,7 +1997,8 @@ ARQUIVOS ESPERADOS: rev_wstr.c
 FUNÇÕES PERMITIDAS: write, malloc, free
 
 
-Write a program that takes a string as a parameter, and prints its words in 
+ENUNCIADO:
+Escreva a program that takes a string as a parameter, and prints its words in 
 reverse order.
 
 A "word" is a part of the string bounded by spaces and/or tabs, or the 
@@ -1919,8 +2011,8 @@ In the parameters that are going to be tested, there won't be any "additional"
 spaces (meaning that there won't be additionnal spaces at the beginning or at 
 the end of the string, and words will always be separated by exactly one space).
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./rev_wstr "le temps du mepris precede celui de l'indifference" | cat -e
 l'indifference de celui precede mepris du temps le$
 $> ./rev_wstr "abcdefghijklm"
@@ -1930,6 +2022,7 @@ mont le contempla il$
 $> ./rev_wstr | cat -e
 $
 $>
+
 
 RESOLUÇÃO:
 
@@ -1943,7 +2036,8 @@ ARQUIVOS ESPERADOS: ft_list_remove_if.c
 FUNÇÕES PERMITIDAS: free
 
 
-Write a function called ft_list_remove_if that removes from the
+ENUNCIADO:
+Escreva a function called ft_list_remove_if that removes from the
 passed list any element the data of which is "equal" to the reference data.
 
 It will be declared as follows :
@@ -1962,6 +2056,7 @@ typedef struct      s_list
 }                   t_list;
 $>
 
+
 RESOLUÇÃO:
 
 
@@ -1974,7 +2069,8 @@ ARQUIVOS ESPERADOS: sort_int_tab.c
 FUNÇÕES PERMITIDAS: 
 
 
-Write the following function:
+ENUNCIADO:
+Escreva the following function:
 
 void sort_int_tab(int *tab, unsigned int size);
 
@@ -1984,6 +2080,7 @@ members, in ascending order.
 Doubles must be preserved.
 
 Input is always coherent.
+
 
 RESOLUÇÃO:
 
@@ -1997,7 +2094,8 @@ ARQUIVOS ESPERADOS: sort_list.c
 FUNÇÕES PERMITIDAS: 
 
 
-Write the following functions:
+ENUNCIADO:
+Escreva the following functions:
 
 t_list	*sort_list(t_list* lst, int (*cmp)(int, int));
 
@@ -2025,6 +2123,7 @@ int ascending(int a, int b)
 	return (a <= b);
 }
 
+
 RESOLUÇÃO:
 
 
@@ -2037,12 +2136,14 @@ ARQUIVOS ESPERADOS: ft_itoa.c
 FUNÇÕES PERMITIDAS: malloc
 
 
-Write a function that takes an int and converts it to a null-terminated string.
+ENUNCIADO:
+Escreva a function that takes an int and converts it to a null-terminated string.
 The function returns the result in a char array that you must allocate.
 
 Your function must be declared as follows:
 
 char	*ft_itoa(int nbr);
+
 
 RESOLUÇÃO:
 
@@ -2056,7 +2157,8 @@ ARQUIVOS ESPERADOS: *.c, *.h
 FUNÇÕES PERMITIDAS: write, malloc, free
 
 
-Write a program who takes rows of a chessboard in argument and check if your 
+ENUNCIADO:
+Escreva a program who takes rows of a chessboard in argument and check if your 
 King is in a check position.
 
 Chess is played on a chessboard, a squared board of 8-squares length with 
@@ -2080,8 +2182,8 @@ followed by a newline, otherwise you will print "Fail" followed by a newline.
 
 If there is no arguments, the program will only print a newline.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./check_mate '..' '.K' | cat -e
 Fail$
 $> ./check_mate 'R...' '.K..' '..P.' '....' | cat -e
@@ -2101,6 +2203,7 @@ Fail$
 As they are only checking in one direction.
 *************************************************
 
+
 RESOLUÇÃO:
 
 
@@ -2113,7 +2216,8 @@ ARQUIVOS ESPERADOS: rostring.c
 FUNÇÕES PERMITIDAS: write, malloc, free
 
 
-Write a program that takes a string and displays this string after rotating it
+ENUNCIADO:
+Escreva a program that takes a string and displays this string after rotating it
 one word to the left.
 
 Thus, the first word becomes the last, and others stay in the same order.
@@ -2125,8 +2229,8 @@ Words will be separated by only one space in the output.
 
 If there's less than one argument, the program displays \n.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $>./rostring "abc   " | cat -e
 abc$
 $>
@@ -2140,6 +2244,7 @@ $>./rostring | cat -e
 $
 $>
 
+
 RESOLUÇÃO:
 
 
@@ -2152,7 +2257,8 @@ ARQUIVOS ESPERADOS: *.c, *.h
 FUNÇÕES PERMITIDAS: write, malloc, free
 
 
-Write a Brainfuck interpreter program.
+ENUNCIADO:
+Escreva a Brainfuck interpreter program.
 The source code will be given as first parameter.
 The code will always be valid, with no more than 4096 operations.
 Brainfuck is a minimalist language. It consists of an array of bytes
@@ -2170,14 +2276,15 @@ Every operator consists of a single character :
 
 Any other character is a comment.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $>./brainfuck "++++++++++[>+++++++>++++++++++>+++>+<<<<-] >++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.
 Hello World!$
 $>./brainfuck "+++++[>++++[>++++H>+++++i<<-]>>>++\n<<<<-]>>
 Hi$
 $>./brainfuck | cat -e
 $
+
 
 RESOLUÇÃO:
 
@@ -2191,7 +2298,8 @@ ARQUIVOS ESPERADOS: print_memory.c
 FUNÇÕES PERMITIDAS: write
 
 
-Write a function that takes (const void *addr, size_t size), and displays the
+ENUNCIADO:
+Escreva a function that takes (const void *addr, size_t size), and displays the
 memory as in the EXEMPLOS.
 
 Your function must be declared as follows:
@@ -2228,7 +2336,8 @@ ARQUIVOS ESPERADOS: ft_itoa_base.c
 FUNÇÕES PERMITIDAS: malloc
 
 
-Write a function that converts an integer value to a null-terminated string
+ENUNCIADO:
+Escreva a function that converts an integer value to a null-terminated string
 using the specified base and stores the result in a char array that you must
 allocate.
 
@@ -2244,6 +2353,7 @@ Your function must be declared as follows:
 
 char	*ft_itoa_base(int value, int base);
 
+
 RESOLUÇÃO:
 
 
@@ -2256,7 +2366,8 @@ ARQUIVOS ESPERADOS: *.c *.h
 FUNÇÕES PERMITIDAS: write
 
 
-Write a program that takes an undefined number of strings in arguments. For each
+ENUNCIADO:
+Escreva a program that takes an undefined number of strings in arguments. For each
 argument, the program prints on the standard output "OK" followed by a newline 
 if the expression is correctly bracketed, otherwise it prints "Error" followed by
 a newline.
@@ -2270,8 +2381,8 @@ correctly bracketed string.
 
 If there is no arguments, the program must print only a newline.
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./brackets '(johndoe)' | cat -e
 OK$
 $> ./brackets '([)]' | cat -e
@@ -2282,6 +2393,7 @@ OK$
 $> ./brackets | cat -e
 $
 $>
+
 
 RESOLUÇÃO:
 
@@ -2295,7 +2407,8 @@ ARQUIVOS ESPERADOS: *.c, *.h
 FUNÇÕES PERMITIDAS: atoi, printf, write, malloc, free
 
 
-Write a program that takes a string which contains an equation written in
+ENUNCIADO:
+Escreva a program that takes a string which contains an equation written in
 Reverse Polish notation (RPN) as its first argument, evaluates the equation, and
 prints the result on the standard output followed by a newline. 
 
@@ -2332,14 +2445,15 @@ Or:
 6 4 -
 2
 
-EXEMPLOS:
 
+EXEMPLOS:
 $> ./rpn_calc "1 2 * 3 * 4 +" | cat -e
 10$
 $> ./rpn_calc "1 2 3 4 +" | cat -e
 Error$
 $> ./rpn_calc |cat -e
 Error$
+
 
 RESOLUÇÃO:
 
@@ -2353,7 +2467,8 @@ ARQUIVOS ESPERADOS: *.c *.h
 FUNÇÕES PERMITIDAS: write
 
 
-Write a program that takes an undefined number of arguments which could be 
+ENUNCIADO:
+Escreva a program that takes an undefined number of arguments which could be 
 considered as options and writes on standard output a representation of those
 options as groups of bytes followed by a newline.
 
@@ -2371,6 +2486,7 @@ an usage on the standard output, as shown in the following EXEMPLOS.
 
 A wrong option must print "Invalid Option" followd by a newline.
 
+
 EXEMPLOS:
 $>./options
 options: abcdefghijklmnopqrstuvwxyz
@@ -2382,5 +2498,6 @@ $>./options -abc -hijk
 options: abcdefghijklmnopqrstuvwxyz
 $>./options -%
 Invalid Option
+
 
 RESOLUÇÃO:
