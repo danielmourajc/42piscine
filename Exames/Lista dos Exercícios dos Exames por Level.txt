@@ -16,7 +16,7 @@ only_z
 
 LEVEL 1
 first_word
-first_word
+fizzbuzz
 ft_putstr
 ft_strcpy
 ft_strlen
@@ -32,9 +32,9 @@ ulstr
 LEVEL 2
 alpha_mirror
 do_op
-fizzbuzz
 ft_atoi
 ft_strcmp
+ft_strcspn
 ft_strdup
 ft_strrev
 inter
@@ -67,9 +67,15 @@ tab_mult
 
 
 LEVEL 4
+fprime
 check_mate
 ft_itoa
+ft_list_foreach
 ft_list_remove_if
+ft_split
+rev_wstr
+rostring
+sort_int_tab
 sort_list
 
 
@@ -79,13 +85,7 @@ brackets
 brainfuck
 cycle_detector
 flood_fill
-fprime
 ft_itoa_base
-ft_list_foreach
-ft_split
 options
 print_memory
-rev_wstr
-rostring
 rpn_calc
-sort_int_tab
