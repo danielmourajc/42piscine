@@ -1,84 +1,18 @@
-#### LEVEL 0
-aff_a<br>
-aff_first_param<br>
-aff_last_param<br>
-aff_z<br>
-ft_countdown<br>
-ft_print_numbers<br>
-hello<br>
-maff_alpha<br>
-maff_revalpha<br>
-only_a<br>
-only_z<br>
-
-#### LEVEL 1
-first_word<br>
-fizzbuzz<br>
-ft_putstr<br>
-ft_strcpy<br>
-ft_strlen<br>
-ft_swap<br>
-repeat_alpha<br>
-rev_print<br>
-rot_13<br>
-rotone<br>
-search_and_replace<br>
-ulstr<br>
-
-#### LEVEL 2
-alpha_mirror<br>
-do_op<br>
-ft_atoi<br>
-ft_strcmp<br>
-ft_strcspn<br>
-ft_strdup<br>
-ft_strrev<br>
-inter<br>
-is_power_of_2<br>
-last_word<br>
-max<br>
-print_bits<br>
-reverse_bits<br>
-swap_bits<br>
-union<br>
-wdmatch<br>
-
-#### LEVEL 3
-add_prime_sum<br>
-epur_str<br>
-expand_str<br>
-ft_atoi_base<br>
-ft_list_size<br>
-ft_range<br>
-ft_rrange<br>
-hidenp<br>
-lcm<br>
-paramsum<br>
-pgcd<br>
-print_hex<br>
-rstr_capitalizer<br>
-str_capitalizer<br>
-tab_mult<br>
-
-#### LEVEL 4
-fprime<br>
-check_mate<br>
-ft_itoa<br>
-ft_list_foreach<br>
-ft_list_remove_if<br>
-ft_split<br>
-rev_wstr<br>
-rostring<br>
-sort_int_tab<br>
-sort_list<br>
-
-#### LEVEL 5
-biggest_pal<br>
-brackets<br>
-brainfuck<br>
-cycle_detector<br>
-flood_fill<br>
-ft_itoa_base<br>
-options<br>
-print_memory<br>
-rpn_calc<br>
+LEVEL 0 | LEVEL 1 | LEVEL 2 | LEVEL 3 | LEVEL 4 | LEVEL 5
+--- | --- | --- | --- | --- | ---
+aff_a | 	first_word | 	alpha_mirror | 	add_prime_sum | 	fprime | 	biggest_pal | 
+aff_first_param | 	fizzbuzz | 	do_op | 	epur_str | 	check_mate | 	brackets | 
+aff_last_param | 	ft_putstr | 	ft_atoi | 	expand_str | 	ft_itoa | 	brainfuck | 
+aff_z | 	ft_strcpy | 	ft_strcmp | 	ft_atoi_base | 	ft_list_foreach | 	cycle_detector | 
+ft_countdown | 	ft_strlen | 	ft_strcspn | 	ft_list_size | 	ft_list_remove_if | 	flood_fill | 
+ft_print_numbers | 	ft_swap | 	ft_strdup | 	ft_range | 	ft_split | 	ft_itoa_base | 
+hello | 	repeat_alpha | 	ft_strrev | 	ft_rrange | 	rev_wstr | 	options | 
+maff_alpha | 	rev_print | 	inter | 	hidenp | 	rostring | 	print_memory | 
+maff_revalpha | 	rot_13 | 	is_power_of_2 | 	lcm | 	sort_int_tab | 	rpn_calc | 
+only_a | 	rotone | 	last_word | 	paramsum | 	sort_list | 	| 
+only_z | 	search_and_replace | 	max | 	pgcd | 	| 	| 
+| 	ulstr | 	print_bits | 	print_hex | 	| 	| 
+| 	| 	reverse_bits | 	rstr_capitalizer | 	| 	| 
+| 	| 	swap_bits | 	str_capitalizer | 	| 	| 
+| 	| 	union | 	tab_mult | 	| 	| 
+| 	| 	wdmatch | 	| 	| 	| 
