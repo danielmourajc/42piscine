@@ -67,8 +67,8 @@
 01 C - VII Ponteiros - **Ponteiros para Função**<br>
 
 <a href="https://youtube.com/playlist?list=PLVQYiy6xNUxwmUOmyYSaI6gD1UyfF9MSj">VÍDEOS DO C12</a><br>
-01 C - XII Listas encadeadas - **Em teoria**<br>
-02 C - XII Listas encadeadas - **Na prática**<br>
+01 C - XII **Listas encadeadas, em teoria**<br>
+02 C - XII **Listas encadeadas, na prática**<br>
 
 <a href="https://youtube.com/playlist?list=PLVQYiy6xNUxzusAgMiybYwkLvuMFbVat9">VÍDEOS DO C13</a><br>
 01 C - XIII **Árvores**<br>
