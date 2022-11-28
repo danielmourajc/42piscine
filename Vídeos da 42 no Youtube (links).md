@@ -91,9 +91,9 @@ Introduction - **Turn in System**<br>
 Introduction - **Turn In System - Setup**<br>
 
 ### <a href="https://www.youtube.com/playlist?list=PLamtf2PLquIHzowlUL1uRDIomK7OG7L93">42 Daniel (Dicas)</a><br>
-Norminette e 42Header no VS Code (Visual Studio) via WSL no Windows<br>
-42Header: Instalação do Cabeçalho e Configuração de USER e MAIL.<br>
-Diferença nas Funções memcpy x memmove em C usando o PythonTutor<br>
+* Norminette e 42Header no VS Code (Visual Studio) via WSL no Windows<br>
+* 42Header: Instalação do Cabeçalho e Configuração de USER e MAIL.<br>
+* Diferença nas Funções memcpy x memmove em C usando o PythonTutor<br>
 
 ### <a href="https://www.youtube.com/playlist?list=PLfxuRgWiQ4rjd92unMjYVnJuFzg8RPSua">42 Intra</a><br>
 ...
