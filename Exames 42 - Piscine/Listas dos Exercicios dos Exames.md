@@ -1,5 +1,5 @@
 LEVEL 0 | LEVEL 1 | LEVEL 2 | LEVEL 3 | LEVEL 4 | LEVEL 5
---- | --- | --- | --- | --- | ---
+:---: | :---: | :---: | :---: | :---: | :---:
 aff_a | 	first_word | 	alpha_mirror | 	add_prime_sum | 	fprime | 	biggest_pal | 
 aff_first_param | 	fizzbuzz | 	do_op | 	epur_str | 	check_mate | 	brackets | 
 aff_last_param | 	ft_putstr | 	ft_atoi | 	expand_str | 	ft_itoa | 	brainfuck | 
